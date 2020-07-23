@@ -3,7 +3,9 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
-
+.nav-bground {
+    background-color:  #201D1D;
+}
 .big-banner {
     background-image: url('../../img/header.png');
     background-size: cover;
@@ -15,7 +17,8 @@ body {
 .home {
     width: 78px;
     height: 32px;
-    padding: 5px;
+    padding: 5px
+    ;
     background-color: #EBA12A;
 }
 .site-heading {
