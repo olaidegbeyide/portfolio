@@ -1,0 +1,48 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.big-banner {
+    background-image: url('../../img/header.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+}
+.site-heading {
+    position: absolute;
+    width: 450px;
+    height: 230px;
+    left: 20px;
+    top: 180px;
+}
+
+.heading-btn {
+    color: #ffffff;
+    background-color: #EBA12A;
+}
+.second-div {
+    background: #F2F2F2;
+}
+.sec-div {
+    /* position: absolute; */
+    width: 50px;
+    height: 373px;
+    /* left: 234px; */
+    /* top: 802px; */
+    background: #FFFFFF;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.15);
+}
+.practices {
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 50px rgba(22, 82, 240, 0.05);
+}
+.practices img {
+    opacity: 0.75;
+}
+.testimonial {
+    background: #2F2E41;
+}
