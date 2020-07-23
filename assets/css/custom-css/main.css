@@ -1,6 +1,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .big-banner {
@@ -11,9 +12,14 @@ body {
     width: 100%;
     height: 600px;
 }
+.home {
+    width: 78px;
+    height: 32px;
+    padding: 5px;
+    background-color: #EBA12A;
+}
 .site-heading {
     position: absolute;
-    width: 450px;
     height: 230px;
     left: 20px;
     top: 180px;
@@ -22,27 +28,50 @@ body {
 .heading-btn {
     color: #ffffff;
     background-color: #EBA12A;
+    width: 200px;
 }
 .second-div {
     background: #F2F2F2;
 }
 .sec-div {
-    /* position: absolute; */
-    width: 50px;
-    height: 373px;
-    /* left: 234px; */
-    /* top: 802px; */
-    background: #FFFFFF;
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.15);
 }
+.about {
+    height: 333px;
+    line-height: 37px;
+    letter-spacing: 0.05em;
+    color: #2F2E41;
+}
 .practices {
-
-    background: #FFFFFF;
-    box-shadow: 0px 0px 50px rgba(22, 82, 240, 0.05);
+    margin-top: 145px;
+    margin-bottom: 100px;
 }
-.practices img {
-    opacity: 0.75;
+.practices-container {
+    margin-bottom: 149px;
 }
-.testimonial {
+.about-img {
+    width: 379px;
+    height: 391.37px;
+}
+.card-title a, .card-text {
+    color: #656562;
+}
+.testimonial, .why, .contact{
     background: #2F2E41;
 }
+.testimonial{
+    height: 464px;
+}
+.why-text h2, .why-text p {
+    color: #E1E0DF;
+}
+.client {
+    margin-top: 66px;
+}
+.our-client {
+    padding-top: 124px;
+}
+.contact {
+    margin-top: 120px;
+}
+

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap-css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/custom-css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Portfolio</title>
 </head>
 <body>
@@ -20,21 +21,19 @@
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">HOME
-                      <span class="sr-only">(current)</span>
-                    </a>
+                <a class="nav-link text-white text-center home" href="#">HOME </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT US</a>
+                <a class="nav-link text-white" href="#">ABOUT US</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">PRACTICE AREAS</a>
+                <a class="nav-link text-white" href="#">PRACTICE AREAS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ATTORNEYS</a>
+                <a class="nav-link text-white" href="#">ATTORNEYS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT US</a>
+                <a class="nav-link text-white" href="#">CONTACT US</a>
               </li>
             </ul>
           </div>
@@ -46,7 +45,7 @@
           <div class="row">
             <div class="col-12 col-lg-5 col-7 ">
               <div class="site-heading">
-                <h1 class="text-white">WE WILL BEND BACKWARDS IN YOUR DEFENSE</h1>
+                <h1 class="text-white font-weight-800">WE WILL BEND BACKWARDS IN YOUR DEFENSE</h1>
                <button class="btn heading-btn">HIRE US</button>
               </div>
             </div>
@@ -56,95 +55,129 @@
 
      <div class="container-fluid second-div">
          <div class="container">
-             <div class="row text-center">
-                 <div class="col sec-div">
-                     <img src="assets/img/icon1.png" alt="" class="image-fluid">
-                     <p>CORPORATE LAW</p>
-                </div>
-                 <div class="col sec-div">
-                     <img src="assets/img/icon2.png" alt="" class="image-fluid">
-                     <p>CORPORATE LAW</p>
-                </div>
-                 <div class="col sec-div">
-                     <img src="assets/img/icon3.png" alt="" class="image-fluid">
-                     <p>CORPORATE LAW</p>
-                </div>
-             </div>
-             <div class="row text-center">
-                 <div class="col">
-                    <h2>ABOUT US</h2>
-                    <p>inDEFENSE was founded in 2008 by Cortez & Armstrong in 
+            <div class="row my-5 mx-auto text-center mt-n5 ">
+                        <div class="col-sm-12 col-md-8 col-lg bg-white py-5 pl-4 mx-auto sec-div">
+                            <img src="assets/img/icon1.png" class="img-fluid">
+                            <h3 class="my-4 text-uppercase">Corporate law</h3>
+                        </div>
+                        <div class="col-sm-12 col-md-8 col-lg bg-white sec-div py-5 pl-4 mx-sm-0 mx-md-auto mx-lg-3 my-3 my-lg-0">
+                            <img src="assets/img/icon2.png" class="img-fluid">
+                            <h3 class="my-4 text-uppercase">Corporate law</h3>
+                        </div>
+                        <div class="col-sm-12 col-md-8 col-lg bg-white py-5 pl-4 mx-auto sec-div">
+                            <img src="assets/img/icon3.png" class="img-fluid">
+                            <h3 class="my-4 text-uppercase">Corporate law</h3>
+                        </div>
+                    </div>
+             <div class="row ">
+                 <div class="col-sm-12 col-lg-6">
+                    <h2 class="mb-5">ABOUT US</h2>
+                    <p class="about">inDEFENSE was founded in 2008 by Cortez & Armstrong in 
                         response to injustice suffered by individuals who are 
                         unable to afford quality legal representation and immigrants
                          seeking representation. The goal of the founding partners is 
                          to provide clients with exceptional “big firm” results for
                           a reasonable “small firm” price. </p>
                  </div>
-                 <div class="col">
-                    <img src="assets/img/second-image.png" alt="" class="img-fluid">
+                 <div class="col-sm-12 col-lg-6 text-center">
+                    <img src="assets/img/second-image.png" alt="" class="img-fluid about-img">
+                    <p>- Nigel Armstrong</p>
+                    <p>Founding Partner</p>
                  </div>
              </div>
          </div>
      </div>
       
-     <div class="container-fluid">
-         <div class="container text-center">
-             <div>
+     <div class="container-fluid p-0">
+         <div class="container text-center practices-container">
+             <div class="practices">
                  <p>WHAT DO WE DO?</p>
                  <h2>LEGAL PRACTICES AREA</h2>
                  <hr class="divider my-4">
              </div>
              <div class="row">
-                <div class="col practices text-center">
-                    <img src="assets/img/practices1.png" alt="" class="img-fluid">
-                    <p>CORPORATE LAW</p>
-                    <p>We keep clients ahead of evolving regulations 
-                        and help them optimize their goals.</p>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                  <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="assets/img/practices1.png" alt=""></a>
+                    <div class="card-body ">
+                      <p class="card-title">
+                        <a href="#">CORPORATE LAW</a>
+                      </p>
+                      <p class="card-text">We keep clients ahead of evolving regulations and help them optimize their goals.</p>
+                    </div>
+                  </div>
                 </div>
-                <div class="col practices text-center">
-                    <img src="assets/img/practices2.png" alt="" class="img-fluid">
-                    <p>CRIMINAL LAW</p>
-                    <p>Be assured of quality representation while we fight to protect your rights.</p>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                  <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="assets/img/practices2.png" alt=""></a>
+                    <div class="card-body">
+                      <p class="card-title">
+                        <a href="#">CRIMINAL LAW</a>
+                      </p>
+                      <p class="card-text">Be assured of quality representation while we fight to protect your rights.</p>
+                    </div>
+                  </div>
                 </div>
-                <div class="col practices text-center">
-                    <img src="assets/img/practices3.png" alt="" class="img-fluid">
-                    <p>IMMIGRATION LAW </p>
-                    <p>We take pride in providing specialized advice in all areas of immigration law.</p>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                  <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="assets/img/practices3.png" alt=""></a>
+                    <div class="card-body">
+                      <p class="card-title">
+                        <a href="#">IMMIGRATION LAW</a>
+                      </p>
+                      <p class="card-text">We take pride in providing specialized advice in all areas of immigration law.</p>
+                    </div>
+                  </div>
                 </div>
-             </div>
-             <div class="row">
-                <div class="col practices text-center">
-                    <img src="assets/img/practices4.png" alt="" class="img-fluid">
-                    <p>LABOUR LAW</p>
-                    <p>Employment law and labor law are meant to address the rights of employees</p>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                  <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="assets/img/practices4.png" alt=""></a>
+                    <div class="card-body">
+                      <p class="card-title">
+                        <a href="#">LABOUR LAW</a>
+                      </p>
+                      <p class="card-text">Employment law and labor law are meant to address the rights of employees</p>
+                    </div>
+                  </div>
                 </div>
-                <div class="col practices text-center">
-                    <img src="assets/img/practices5.png" alt="" class="img-fluid">
-                    <p>REAL ESTATE LAW</p>
-                    <p>We are uniquely qualified to take you through the negotiation & litigation stages of </p>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                  <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="assets/img/practices5.png" alt=""></a>
+                    <div class="card-body">
+                      <p class="card-title">
+                        <a href="#">REAL ESTATE LAW</a>
+                      </p>
+                      <p class="card-text">We are uniquely qualified to take you through the negotiation & litigation stages of </p>
+                    </div>
+                  </div>
                 </div>
-                <div class="col practices text-center">
-                    <img src="assets/img/practices6.png" alt="" class="img-fluid">
-                    <p>E-COMMERCE LAW</p>
-                    <p>We provide strategic advice to web-based business clients, and tech entrepreneurs.</p>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                  <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="assets/img/practices6.png" alt=""></a>
+                    <div class="card-body">
+                      <p class="card-title">
+                        <a href="#">E-COMMERCE LAW</a>
+                      </p>
+                      <p class="card-text">We provide strategic advice to web-based business clients, and tech entrepreneurs.</p>
+                    </div>
+                  </div>
                 </div>
-             </div>
          </div>
      </div>
 
-     <div class="container-fluid">
+     <div class="container-fluid why">
          <div class="container text-center">
-             <div>
-                 <h2>WHY CLIENTS CHOOSE US</h2>
+             <div class="pt-5">
+                 <h2 class="text-white">WHY CLIENTS CHOOSE US</h2>
                  <hr class="divider my-4">
              </div>
-             <div class="row">
+             <div class="row why-text">
                  <div class="col">
                     <h2>800K+</h2>
                     <p>CLIENTS</p>
                  </div>
                  <div class="col">
-                    <h2>950K+</h2>
+                    <h2> 950K+ </h2>
                     <p>CASES </p>
                  </div>
                  <div class="col">
@@ -161,11 +194,11 @@
 
      <div class="container-fluid">
          <div class="container text-center">
-             <div>
+             <div class="client">
                 <h2>OUR ATTORNEYS</h2>
                 <hr class="divider my-4">
              </div>
-             <div class="row">
+             <div class="row pt-4">
                  <div class="col">
                     <img src="assets/img/attorney1.png" alt="" class="img-fluid">
                  </div>
@@ -179,10 +212,10 @@
          </div>
      </div>
 
-     <div class="container-fluid testimonial">
+     <div class="container-fluid testimonial mt-3">
          <div class="container text-center">
              <div>
-                 <p class="text-white">TESTIMONIAL</p>
+                 <p class="text-white pt-5">TESTIMONIAL</p>
                  <h2 class="text-white">words from clients </h2>
                  <hr class="divider my-4">
              </div>
@@ -198,11 +231,12 @@
      </div>
 
      <div class="container-fluid">
-         <div class="container text-center">
+         <div class="container text-center our-client">
              <div>
                  <h2>OUR CLIENT</h2>
+                 <hr class="divider my-4">
              </div>
-             <div class="row">
+             <div class="row pt-4">
                  <div class="col">
                     <img src="assets/img/our-client-1.png" alt="" class="img-fluid">
                  </div>
@@ -219,14 +253,14 @@
          </div>
      </div>
 
-     <div class="container-fluid">
+     <div class="container-fluid contact">
          <div class="container">
              <div class="text-center">
-                 <h2>CONTACT US</h2>
+                 <h2 class="text-white pt-5">CONTACT US</h2>
              </div>
              <div class="row text-center ">
                  <div class="col">
-                    <h2>Enquires </h2>
+                    <h2 class="text-white">Enquires </h2>
 
                  </div>
                  <div class="col">
