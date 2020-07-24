@@ -111,5 +111,10 @@ body {
 .footer {
     background-color: #201D1D;;
 }
+textarea {
+    width: 100%;
+}
 
-
+@media (max-width:600px) {
+    
+}
