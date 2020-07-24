@@ -1,10 +1,9 @@
 
-body {
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto', sans-serif;
-}
 .nav-bground {
     background-color:  #201D1D;
+}
+.my-nav   {
+    font-family:'Roboto', sans-serif; ;
 }
 .big-banner {
     background-image: url('../../img/header.png');
@@ -26,6 +25,7 @@ body {
     height: 230px;
     left: 20px;
     top: 180px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .heading-btn {
@@ -37,8 +37,14 @@ body {
     background: #F2F2F2;
 }
 .sec-div {
-    
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.15);
+}
+.sec-div h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #050F19;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
 }
 .sec-div img {
     background-color:rgba(255, 221, 116, 0.38);
@@ -54,10 +60,19 @@ body {
     opacity: 0.75;
 }
 .about {
+    font-family: 'Montserrat', sans-serif;
     height: 333px;
     line-height: 37px;
     letter-spacing: 0.05em;
     color: #2F2E41;
+}
+.about-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 75px;
+    letter-spacing: 0.05em;
+    color: #000000;
 }
 .line {
     background-color:#EBA12A ;
@@ -66,7 +81,18 @@ body {
 }
 .practices {
     margin-top: 145px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+}
+.practices p {
+    font-family: 'Roboto', sans-serif;
+}
+.practices h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 75px;
+    letter-spacing: 0.05em;
+    color: #000000;
 }
 .practices-container {
     margin-bottom: 149px;
@@ -81,9 +107,21 @@ body {
 .testimonial, .why, .contact{
     background: #2F2E41;
 }
-
+.why-title {
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 75px;
+    letter-spacing: 0.05em;    
+}
 .why-text h2, .why-text p {
     color: #E1E0DF;
+}
+.why-text h2 {
+    font-weight: bold;
+}
+.attorney {
+    color: #2F2E41;
+    font-weight: bold;
 }
 .client {
     margin-top: 66px;
@@ -95,11 +133,23 @@ body {
     background: #FFFFFF;
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.15);
 }
+.slide {
+    background-color: aqua;
+}
 .testimonial-name {
     color: #EBA12A;;
 }
+.testimonial-text {
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.05em;    
+}
 .contact {
     margin-top: 120px;
+}
+.contact h2 {
+    letter-spacing: 0.05em;   
 }
 .enquiries {
     background-color: #EBA12A;
@@ -109,8 +159,20 @@ body {
 .footer {
     background-color: #201D1D;;
 }
+.card-text {
+    color: #000000;
+}
 textarea {
     width: 100%;
+}
+.previous, .next {
+    background-color:#2F2E41;
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 24px;
+    color: #ffffff;
+    font-size: 30px;
+    margin: 5px;
 }
 
 @media (max-width:600px) {
