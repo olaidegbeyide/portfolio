@@ -81,9 +81,7 @@ body {
 .testimonial, .why, .contact{
     background: #2F2E41;
 }
-.testimonial{
-    height: 464px;
-}
+
 .why-text h2, .why-text p {
     color: #E1E0DF;
 }
