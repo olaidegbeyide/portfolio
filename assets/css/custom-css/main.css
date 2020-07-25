@@ -1,4 +1,9 @@
 
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+}
 .nav-bground {
     background-color:  #201D1D;
 }
@@ -103,7 +108,7 @@
 .card-title a, .card-text {
     color: #656562;
 }
-.testimonial, .why, .contact{
+ .slides, .why, .contact{
     background: #2F2E41;
 }
 .why-title {
@@ -132,9 +137,7 @@
     background: #FFFFFF;
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.15);
 }
-.slide {
-    background-color: aqua;
-}
+
 .testimonial-name {
     color: #EBA12A;;
 }
@@ -154,6 +157,9 @@
     background-color: #EBA12A;
     border: 1px solid #EBA12A;
     border-radius: 0px;
+}
+.my-card {
+    padding-left:60px;
 }
 .footer {
     background-color: #201D1D;;
@@ -177,3 +183,7 @@ textarea {
     border-radius: 50%;
     
   }
+.map-div {
+    color: #000000;
+    font-size: 22px;
+}
